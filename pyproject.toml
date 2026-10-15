@@ -7,7 +7,7 @@ name = "model3d"
 version = "0.1.0"
 description = "Dependency-free 3D model library: meshes, primitives, OBJ/STL/PLY I/O and SVG/PNG rendering"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = { text = "MIT" }
 classifiers = [
     "Programming Language :: Python :: 3",

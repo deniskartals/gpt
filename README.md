@@ -23,7 +23,7 @@ Saf Python ile yazılmış, **hiçbir bağımlılığı olmayan** küçük bir 3
 pip install .
 ```
 
-Ya da kurmadan, depo kökünden doğrudan `import model3d` ile kullanabilirsiniz (Python 3.8+).
+Ya da kurmadan, depo kökünden doğrudan `import model3d` ile kullanabilirsiniz (Python 3.9+).
 
 ## Hızlı başlangıç
 
