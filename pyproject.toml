@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "model3d"
+version = "0.1.0"
+description = "Dependency-free 3D model library: meshes, primitives, OBJ/STL/PLY I/O and SVG/PNG rendering"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics :: 3D Modeling",
+]
+
+[project.scripts]
+model3d = "model3d.__main__:main"
+
+[tool.setuptools]
+packages = ["model3d"]
